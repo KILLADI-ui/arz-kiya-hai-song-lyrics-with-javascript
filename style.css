@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Jester";
+  src: url(Jester.ttf);
+}
+
+body {
+  background-color: rgb(130, 247, 255);
+  color: black;
+  font-family: "royalCT";
+  text-align: center;
+  padding-top: 100px;
+  font-weight: bolder;
+}
+
+.lyric {
+  font-size: 32px;
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translateY(10px);
+}
+
+button {
+  background: transparent;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 10px;
+}
+.show {
+  opacity: 1;
+  transform: translate(-50%, -50%) translateY(0);
+}
